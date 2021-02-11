@@ -376,8 +376,11 @@ T5Trainer(
     source_text="text",
     target_text="headlines",
     model_params=model_params,
-    output_dir="outputs",
+    output_dir="/content/drive/MyDrive/outputs",
 )
+
+pred = pd.read_csv('/content/drive/MyDrive/outputs/predictions.csv')
+pred.head()
 
 ```
 ```ASCII
