@@ -1,4 +1,4 @@
-# Generate News Headline from News Text using T5 Transformer and Pytorch
+# Generate News Headline from News Article using T5 Transformer and Pytorch
 Generate Headlines from News Text using T5 Transformer
 
 <p align="center">
